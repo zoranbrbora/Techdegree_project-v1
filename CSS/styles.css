@@ -1,0 +1,462 @@
+/*
+===========================
+GENERAL
+===========================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;  
+}
+
+
+
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #ededed;
+}
+
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #6633ff;
+}
+
+
+
+
+/*
+=============================
+NAVIGATION
+=============================
+*/
+
+
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+/*
+===========================
+HEADER
+===========================
+*/
+
+
+
+
+header {
+  text-align: center;
+  background: url('../images/space.jpg') no-repeat center center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+
+
+header {
+  line-height: 1.5;
+}
+
+
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+  cursor: pointer;
+}
+
+
+.tag {
+  color: #000;
+  background: #ededed; 
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+
+
+.location {
+  color: #a50069;
+}
+
+/*
+============================
+COLUMNS
+============================
+*/
+
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  color: #fff;
+  background: #7B37F2;
+  border-bottom: 4px solid #000;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-2 {
+  background: #F237AE; 
+}
+
+
+.card:hover,
+.col:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+
+
+.skills li:first-child {
+  background: #fdc238;
+}
+
+
+
+.skills li:nth-child(2) {
+  background: #4fa8f6;
+}
+
+
+
+.skills li:nth-child(3) {
+  background: #62f352;
+}
+
+.skills li:nth-child(4) {
+  background: #f31b1b;
+}
+
+.skills li:last-child {
+  background: #f56f6f;
+}
+
+/*
+=====================
+FOOTER
+=====================
+*/
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+/* social icons */
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+
+a.twitter {
+  background-image: url(../images/twitter.svg);
+}
+
+
+a.facebook {
+  background-image: url(../images/face.png);
+}
+
+
+a.github {
+  background-image: url(../images/github.svg);
+}
+
+
+a.social:hover {
+  opacity: 1;
+}
+
+/*
+===========================
+EXPERIENCE PAGE
+===========================
+*/
+
+.grid {
+  display: inline-block;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.col {
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  width: 25%;
+  height: 300px;
+  color: #fff;
+  background: #af7aef;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 30px;
+  border-bottom: 4px solid #000;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.col-2 {
+  background: #ff66ff;
+}
+
+.col-3 {
+  background: #9999ff;
+}
+
+
+/*
+===========================
+CONTACT PAGE
+===========================
+*/
+
+
+.contact {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+span {
+  color: #a50069;
+}
+
+
+/*form*/
+
+
+form {
+  border: 1px solid #a50069;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 0;
+  margin: 5px;
+  padding: 20px;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  display: block;
+  width: 300px;
+  height: 30px;
+  margin: 0 auto;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.textarea {
+  height: 150px;
+}
+
+
+
+label {
+  font-size: 20px;
+  line-height: 25px;
+  color: #a50069;
+}
+
+.btn {
+  background: #a50069;
+  height: 50px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+/*
+=========================
+GALLERY PAGE
+=========================
+*/
+
+/*intro gallery*/
+
+.intro-gallery {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+
+.title-gallery {
+  margin-top: 100px;
+  line-height: 50px;
+  color: #a50069;
+}
+
+.p-gallery {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+
+/*gallery*/
+
+dl#gallery {
+  width: 1200px;
+  left: 400px;
+  position: relative; 
+  border-radius: 80px;
+  background: #000; 
+}
+
+dl#gallery dt img { 
+  width: 150px;
+  height: 150px;
+  margin: 2.2em;
+  margin-left: 700px;
+  border-radius: 8px;
+}
+
+dl#gallery dd { 
+  position: absolute;
+  left: 50px;
+  top: 2.2em;
+  visibility: hidden;
+  opacity: 0;
+  transition: 2s opacity linear;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; color: white;
+}
+
+dl#gallery dt:hover + dd { 
+  visibility: visible;
+  opacity: 1; 
+}
+
+dl#gallery dd img { 
+  display: block; 
+  margin: auto; 
+  padding-bottom: 1.2em; 
+}
+
+
+
+/*
+==========================
+CLEARFIX
+==========================
+*/
+
+
+.clearfix {
+  clear: both;
+}
+
