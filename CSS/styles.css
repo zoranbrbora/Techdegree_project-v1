@@ -384,8 +384,7 @@ label {
   background: #a50069;
   height: 50px;
   color: #fff;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   border-radius: 10px;
   font-size: 20px;
   text-transform: uppercase;
