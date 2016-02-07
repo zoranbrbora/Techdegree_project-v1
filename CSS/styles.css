@@ -289,14 +289,11 @@ EXPERIENCE PAGE
 .col {
   vertical-align: top;
   display: inline-block;
-  text-align: left;
   width: 25%;
-  height: 300px;
-  color: #fff;
+  min-height: 200px;
   background: #af7aef;
   margin-left: 4%;
   margin-right: 4%;
-  padding: 30px;
   border-bottom: 4px solid #000;
   border-radius: 6px;
   transition: all .5s;
@@ -308,6 +305,19 @@ EXPERIENCE PAGE
 
 .col-3 {
   background: #9999ff;
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
+  padding-left: 30px;
+}
+
+
+.p-experience {
+  color: #fff; 
+  text-align: left;
+  padding:  0 30px 30px 30px;
 }
 
 
@@ -411,7 +421,7 @@ GALLERY PAGE
 
 dl#gallery {
   width: 1200px;
-  left: 240px;
+  left: 300px;
   position: relative; 
   border-radius: 80px;
   background: #000; 
